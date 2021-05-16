@@ -82,7 +82,7 @@ alignment: Alignment.center,
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Text(
-          "Edit Profile",
+          "Edit Profiless",
           style: TextStyle(
             fontSize: 24.0
           ),
@@ -98,7 +98,7 @@ alignment: Alignment.center,
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        createInfoColumn("07", "Post"),
+        createInfoColumn("07", "Posts"),
         createInfoColumn("2.1M", "Follower"),
         createInfoColumn("49", "Following"),
       ],
