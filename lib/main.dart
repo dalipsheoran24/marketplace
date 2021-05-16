@@ -98,9 +98,9 @@ alignment: Alignment.center,
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        createInfoColumn("07", "Posts"),
-        createInfoColumn("2.1M", "Follower"),
-        createInfoColumn("49", "Following"),
+        createInfoColumn("10", "Posts"),
+        createInfoColumn("2.2k", "Follower"),
+        createInfoColumn("501", "Following"),
       ],
     );
   }
