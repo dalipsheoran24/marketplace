@@ -40,7 +40,7 @@ class Myhomepage extends StatelessWidget {
             ],
             ),
           ),
-          editProfileWidget(context),
+          editProfileWidgett(context),
           Expanded(
             child: Container(
                child: GridView.count(
@@ -64,13 +64,10 @@ class Myhomepage extends StatelessWidget {
                     FlutterLogo(),
                     FlutterLogo(),
                     FlutterLogo(),
-
                   ],
                 )
             ),
           ),
-
-
         ],
       ),
 
@@ -79,7 +76,7 @@ class Myhomepage extends StatelessWidget {
     );
   }
 
-  Container editProfileWidget(BuildContext context) {
+  Container editProfileWidgett(BuildContext context) {
     return Container(
 alignment: Alignment.center,
       child: Padding(
